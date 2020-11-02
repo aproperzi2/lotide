@@ -6,8 +6,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual('Lighthouse', 'Bootcamp');
-assertEqual(1, 1);
-
-assertEqual('Calgary', 'Edmonton');
-assertEqual(10, 10);
+module.exports = assertEqual;
